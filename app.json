@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "urbou",
+    "name": "Urbou",
     "slug": "urbou",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,10 +20,12 @@
       "supportsTablet": true
     },
     "android": {
+      "icon": "./assets/icon.png",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ivanrs99.urbou"
     },
     "web": {
       "favicon": "./assets/favicon.png"
